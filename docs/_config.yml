@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/"
 url: "https://realsimplenews.net"
 twitter_username: RSSCommentary
-github_username:  real-simple-news
+github_username:  RealSimpleNews
 instagram_username: CaleMcCollough
 social:
   name: Cale McCollough
@@ -18,7 +18,7 @@ social:
     - https://github.com/KabukiStarship
 
 disqus:
-  shortname: real-simple-news
+  shortname: realsimplenews
 
 # Build settings
 markdown: kramdown
