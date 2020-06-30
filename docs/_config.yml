@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/"
 url: "https://realsimplenews.net"
 twitter_username: RSSCommentary
-github_username:  RealSimpleNews
+github_username:  real-simple-news
 instagram_username: CaleMcCollough
 social:
   name: Cale McCollough
@@ -18,12 +18,12 @@ social:
     - https://github.com/KabukiStarship
 
 disqus:
-  shortname: RealSimpleNews
+  shortname: real-simple-news
 
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
-theme: jekyll-sleek
+theme: real-simple-news
 exclude:
   - README.md
   - node_modules
@@ -34,7 +34,7 @@ exclude:
   - vendor
   - npm-debug.log
   - gulpfile.js
-  - sleek.png
+  - real-simple-news.png
 
 include: ['_pages']
 permalink: /:title/
