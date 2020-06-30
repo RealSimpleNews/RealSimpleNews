@@ -371,6 +371,7 @@ pre>code{
   -webkit-transform:translateY(0%);
   transform:translateY(0%)
 }
+
 .header a{
   display:-webkit-box;
   display:-ms-flexbox;
@@ -431,17 +432,18 @@ pre>code{
   -ms-flex-pack:justify;
   justify-content:space-between
 }
-.header__links{
-  padding-bottom:.5rem;
-  display:block;
-  position:absolute;
-  top:3.75em;
-  left:0;
-  width:100%;
-  height:auto;
-  background:#fff
+.HeaderNav{
+  display:inline;
 }
-.header__link{
+.HeaderNav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.HeaderNav li {
+  display: inline;
+}
+.HeaderNav a{
   color:#343851;
   padding:.938rem 0;
   border-top:1px solid #ededed
@@ -510,7 +512,7 @@ pre>code{
       display:none;
       visibility:hidden
   }
-  .header__links{
+  .HeaderLinks{
       position:static;
       padding:0;
       display:-webkit-box;
@@ -524,20 +526,20 @@ pre>code{
       width:auto;
       height:100%
   }
-  .header__links-wrapper{
+  .HeaderLinks-wrapper{
       display:-webkit-box;
       display:-ms-flexbox;
       display:flex;
       height:100%;
       padding:0
   }
-  .header__link{
+  .HeaderLink{
       position:relative;
       padding:.938rem 1rem;
       border:0;
       height:100%
   }
-  .header__link::after{
+  .HeaderLink::after{
       content:"";
       display:block;
       position:absolute;
@@ -553,10 +555,10 @@ pre>code{
       transition:color 0.2s ease-in-out, transform .2s ease-in-out;
       transition:color 0.2s ease-in-out, transform .2s ease-in-out, -webkit-transform .2s ease-in-out
   }
-  .header__link:hover{
+  .HeaderLink:hover{
       color:#0f4c9c
   }
-  .header__link:hover::after,.header__link :active::after,.header__link :focus::after{
+  .HeaderLink:hover::after,.HeaderLink :active::after,.HeaderLink :focus::after{
       -webkit-transform:scaleX(1);
       transform:scaleX(1);
       color:#0f4c9c;
@@ -1299,4 +1301,5 @@ table th,table td{
 .controls__item a:hover svg{
   fill:#277cea
 }
+
 /*# sourceMappingURL=maps/main.css.map */
