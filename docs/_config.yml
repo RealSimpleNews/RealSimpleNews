@@ -7,7 +7,8 @@ baseurl: "/"
 url: "https://realsimplenews.net"
 twitter_username: RSSCommentary
 github_username:  RealSimpleNews
-instagram_username: CaleMcCollough
+periscope_username:  RealSimpleNews
+instagram_username: RealSimpleNews
 social:
   name: Real Simple News
   links:
