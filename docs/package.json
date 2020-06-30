@@ -1,7 +1,7 @@
 {
   "name": "real-simple-news",
   "version": "1.0.0",
-  "description": "Real Simple News is a modern Jekyll theme focused on speed performance & SEO best practices.",
+  "description": "Real Simple News is Really Simple Syndication (RSS) news and political commentary and critique from the Intellectual Dark Web hosted by Cale McCollough, Captain of the Kabuki Starship and technology pioneer.",
   "main": "gulpfile.js",
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
