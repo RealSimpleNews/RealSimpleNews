@@ -1,23 +1,30 @@
-# IssueType
+This issue ticket contains links to the stories presented on the Real Simple News episode from , July  2020 that you can watch on YouTube at <https://youtu.be/>.
 
-## Problem
+You can also find us on the web and make a donation at <https://realsimplenews.net/donate>.
 
+## Articles
 
-
-## Solution
-
-
-
-### Files Affected
-
-1. Unspecified
-
-## Hierarchy
-
-* CookingWithCale/CookingWithCale#1
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
+* <>
 
 ## License
 
-Copyright © 2020 [Kabuki Starship](https://kabukistarship.com).
-
-This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at <https://mozilla.org/MPL/2.0/>.
+Copyright © 2020 [Real Simple News Network](https://kabukistarship.com); all rights reserved.
