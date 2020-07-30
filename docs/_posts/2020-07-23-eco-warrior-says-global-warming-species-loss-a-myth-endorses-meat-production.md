@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Steven Miller's grandma's death falsely listed as COVID; 18 alleged Portland rioters charged."
-featured-img: RealSimpleNews-2020-07-24-Coffee
+featured-img: RealSimpleNews-2020-07-23-Coffee
 ---
 
 This morning in the news, an Eco-warrior says that going stopping meat production is pointless and catastrophic species loss from global warming is a myth.

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "BLM hate symbol painted in front of Trump Tower; Facebook audit says platform has been weaponized"
-featured-img: RealSimpleNews-2020-07-09-CaleMcCollough
+title: "Democrats sue Feds for arresting rioters in Portland; BLM 'murals' vandalized around the country."
+featured-img: RealSimpleNews-2020-07-19-CaleMcCollough
 ---
 
-Today in the news, Facebook caught censoring conservatives; Twitch Suspends Trump; Twitter removes Trump tweet over copyrighted NYT images of Trump; more fake COVID news; CHAZ/CHOP finally shut; riots and Portland; Harvard grad Claira Janover threatens to stab anyone who says "all lives matter"; Chinese Nazi Party cracks down on dessert on Hong Kong with new anti-free-speech law; and more top RSS news and political commentary from the intellectual dark web.
+Today in the news, Democrats in Oregon have sued multiple Federal agencies for arresting rioters who were attacking the Federal Court House in Portland; Black Lives Matter 'murals' are vandalized all around the country, including by black people; high-profile Twitter accounts including Obama, Musk, and Biden hacked by 'youthful antics'; Ghislaine Maxwell thinks Epstine was murdered; fake-news MSM falsly claims Trump's claim US has the lowest COVID death rate based on misreading of statistics as being in relation to the population as opposed to percent deaths to infections, which varries wildly depending on the estimate; naked BLM protestor makes Portland Oregon Police strand down; BLM protestors repeat racist chants at black cop; George US House of Representatives member and Civil rights leader John Lewis, who is not Elisah Cummings, dies at the age of 80; suspected arson sets ablaze centuries-old Cathedral in Nantes; Fauci puts foot in mouth again by claiming that COVID is as bad as the Spanish Flu pandemic; fruit-cake Reparations study suggests 151 million dollars for African Americans; Columbian Cartels executing people for violating COVID lockdowns; proof Biden supported defunding the police; and more top RSS news and political commentary from the intellectual dark web.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sGLyQvWw6SA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MR5zv4X-BJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Real Simple News is an open-source news organization that you can contribute to. If you find any factual errors you may correct them, contribute to the website or WikiSpy, donate money, suggest news stories, or comment on these stories, this episode is Issue #24 on Github and you can find the Issue ticket along with links to the articles in this show at 
 
