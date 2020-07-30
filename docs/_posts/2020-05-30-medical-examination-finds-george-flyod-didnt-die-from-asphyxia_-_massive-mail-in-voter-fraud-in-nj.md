@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Medical Examination finds George Flyod didn't die from asphyxia; Massive mail-in voter fraud in NJ"
+title: "Medical Examination finds George Floyd didn't die from asphyxia; Massive mail-in voter fraud in NJ"
 featured-img: RealSimpleNews-2020-05-30-CaleMcCollough
 ---
 
-Today in the news, Medical Examination finds George Flyod didn't die from asphyxia; Massive mail-in voter fraud in NJ; and more top Really Simple Syndication (RSS) news and political commentary from Eugene Oregon USA.
+Today in the news, Medical Examination finds George Floyd didn't die from asphyxia; Massive mail-in voter fraud in NJ; and more top Really Simple Syndication (RSS) news and political commentary from Eugene Oregon USA.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4-PnZYFpOmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
