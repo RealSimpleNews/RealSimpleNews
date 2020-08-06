@@ -51,6 +51,16 @@ layout: compress
         {{ content }}
 
       </article>
+      <div class="Donate">
+        Real Simple News is part of [WikiSpy](https://github.com/WikiSpy/WikiSpy), an open-source fact-checking service and tool to monitor Wiki-like sites for tampering by hostile actors and political bias. If you would like to make donations to keep the show going you can do so through the PayPay with the button below.
+        
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="AYDDN3KP72MML" />
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>        
+      </div>
       <div class="post-content controls__inner">
         <div class="controls__item prev">
           {% if page.previous.url %}
@@ -81,15 +91,6 @@ layout: compress
           {% endif %}
         </div>
       </div>
-    </div>
-
-    <div class="Donate">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="AYDDN3KP72MML" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-        </form>        
     </div>
 
     {% if site.disqus.shortname %}
