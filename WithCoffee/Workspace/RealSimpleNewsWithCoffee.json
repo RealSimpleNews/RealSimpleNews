@@ -29,8 +29,8 @@
         "versioned_id": "wasapi_output_capture",
         "volume": 0.42277073860168457
     },
-    "current_program_scene": "B.Cam",
-    "current_scene": "B.Cam",
+    "current_program_scene": "Intro.Thumbnail",
+    "current_scene": "Intro.Thumbnail",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -111,6 +111,32 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.Thumbnail.Right",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNews/WithCoffee/Workspace/RSNWCoffeeThumbnailRight.png",
+                "unload": false
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
             "id": "text_gdiplus",
             "mixers": 0,
             "monitoring_type": 0,
@@ -130,7 +156,7 @@
                     "size": 128,
                     "style": "Regular"
                 },
-                "text": "#61"
+                "text": "#76"
             },
             "sync": 0,
             "versioned_id": "text_gdiplus_v2",
@@ -163,7 +189,7 @@
                     "size": 256,
                     "style": "Regular"
                 },
-                "text": "Wednesday August 5, 2020"
+                "text": "Wednesday August 12, 2020"
             },
             "sync": 0,
             "versioned_id": "text_gdiplus_v2",
@@ -210,6 +236,7 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio.GoPro": [],
+                "libobs.hide_scene_item.Image.Stamp.False": [],
                 "libobs.hide_scene_item.Image.Thumbnail.Right": [],
                 "libobs.hide_scene_item.Mic.B": [],
                 "libobs.hide_scene_item.Text.AtRSSCommentary": [],
@@ -220,6 +247,7 @@
                 "libobs.hide_scene_item.Video.Tablet": [],
                 "libobs.hide_scene_item.Window.Proof": [],
                 "libobs.show_scene_item.Audio.GoPro": [],
+                "libobs.show_scene_item.Image.Stamp.False": [],
                 "libobs.show_scene_item.Image.Thumbnail.Right": [],
                 "libobs.show_scene_item.Mic.B": [],
                 "libobs.show_scene_item.Text.AtRSSCommentary": [],
@@ -243,7 +271,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 26,
+                "id_counter": 28,
                 "items": [
                     {
                         "align": 5,
@@ -340,110 +368,23 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 23,
-                        "locked": false,
-                        "name": "Image.Thumbnail.Right",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 84,
+                        "crop_bottom": 100,
                         "crop_left": 101,
                         "crop_right": 118,
-                        "crop_top": 115,
+                        "crop_top": 222,
                         "group_item_backup": false,
                         "id": 14,
                         "locked": false,
                         "name": "Video.Tablet",
                         "pos": {
-                            "x": 724.0,
-                            "y": 450.0
+                            "x": 733.0,
+                            "y": 528.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.68240094184875488,
                             "y": 0.68235296010971069
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Text.AtRSSCommentary",
-                        "pos": {
-                            "x": 33.0,
-                            "y": 1003.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.2648649215698242,
-                            "y": 1.2708333730697632
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 20,
-                        "locked": false,
-                        "name": "Text.Date",
-                        "pos": {
-                            "x": 1136.0,
-                            "y": 123.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.27855050563812256,
-                            "y": 0.27734375
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -485,6 +426,35 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 33.0,
+                            "y": 1003.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.2648649215698242,
+                            "y": 1.2708333730697632
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
                         "crop_bottom": 42,
                         "crop_left": 551,
                         "crop_right": 540,
@@ -502,6 +472,64 @@
                         "scale": {
                             "x": 0.58624851703643799,
                             "y": 0.58569806814193726
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 27,
+                        "locked": false,
+                        "name": "Image.Stamp.False",
+                        "pos": {
+                            "x": 732.0,
+                            "y": 709.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.15066394209861755,
+                            "y": 0.15063038468360901
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 28,
+                        "locked": false,
+                        "name": "Image.Thumbnail.Right",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -523,14 +551,43 @@
                         "locked": false,
                         "name": "Text.IssueNumber",
                         "pos": {
-                            "x": 1682.0,
-                            "y": 923.0
+                            "x": 1694.0,
+                            "y": 915.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 20,
+                        "locked": false,
+                        "name": "Text.Date",
+                        "pos": {
+                            "x": 1257.0,
+                            "y": 131.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.22849082946777344,
+                            "y": 0.2265625
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1031,7 +1088,7 @@
                     "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
-                    "enabled": false,
+                    "enabled": true,
                     "flags": 0,
                     "hotkeys": {},
                     "id": "color_filter",
@@ -1046,11 +1103,11 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "brightness": -0.01,
-                        "contrast": 0.14999999999999999,
-                        "gamma": -0.16,
+                        "brightness": 0.11,
+                        "contrast": 0.52000000000000002,
+                        "gamma": -0.17999999999999999,
                         "hue_shift": 0.0,
-                        "saturation": -0.31
+                        "saturation": -0.28000000000000003
                     },
                     "sync": 0,
                     "versioned_id": "color_filter",
@@ -1082,10 +1139,10 @@
                 "color_space": "709",
                 "frame_interval": -1,
                 "last_resolution": "1920x1080",
-                "last_video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#226&11719826&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "res_type": 1,
+                "last_video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#228&31cbce1e&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "res_type": 0,
                 "resolution": "1920x1080",
-                "video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#226&11719826&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#228&31cbce1e&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "video_format": 0
             },
             "sync": 0,
@@ -1183,7 +1240,7 @@
                     "balance": 0.5,
                     "deinterlace_field_order": 0,
                     "deinterlace_mode": 0,
-                    "enabled": true,
+                    "enabled": false,
                     "flags": 0,
                     "hotkeys": {},
                     "id": "color_filter",
@@ -1234,10 +1291,10 @@
                 "frame_interval": 0,
                 "last_resolution": "3840x2160",
                 "last_video_device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#22c&3f9fb69&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "res_type": 1,
+                "res_type": 0,
                 "resolution": "3840x2160",
                 "video_device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#22c&3f9fb69&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "video_format": 201
+                "video_format": 0
             },
             "sync": 0,
             "versioned_id": "dshow_input",
@@ -1440,7 +1497,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Image.Thumbnail.Right",
+            "name": "Image.Thumbnail",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -1448,7 +1505,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNews/WithCoffee/Workspace/RSNWCoffeeThumbnailRight.png",
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNews/WithCoffee/Workspace/RSNWCThumbnail.png",
                 "unload": true
             },
             "sync": 0,
@@ -1495,10 +1552,10 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Image.ChannelArt": [],
-                "libobs.hide_scene_item.Image.Thumbnail.Right": [],
+                "libobs.hide_scene_item.Image.Thumbnail": [],
                 "libobs.hide_scene_item.Text.BRB": [],
                 "libobs.show_scene_item.Image.ChannelArt": [],
-                "libobs.show_scene_item.Image.Thumbnail.Right": [],
+                "libobs.show_scene_item.Image.Thumbnail": [],
                 "libobs.show_scene_item.Text.BRB": []
             },
             "id": "scene",
@@ -1560,7 +1617,7 @@
                         "group_item_backup": false,
                         "id": 10,
                         "locked": false,
-                        "name": "Image.Thumbnail.Right",
+                        "name": "Image.Thumbnail",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1659,7 +1716,7 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "chunk_data": "0QIAAMu+QwACAAAAxQIAAAYfAAB4nO2ZS3PaMBCA7/wKjc8tY9nGjntrSuhkhjwmkBx6E3gd1MiSR5bTZDL89xoDqSEGzMONkuEErMTutw+vHn5pIISMH4IreFKop4gCA31DLxPxZKT/HOcCo02HigpO5LPxZT54R1g6nT6eiMb5gNHuXe+uaCaZ6zljEAFXydLYJoVr1M6VAxc0AfmrWzpezcBGM7MJMy/QJYnWzVsw2lOS8vtSg8tmi86UTx+vUGOccTJggL4HJFb0EVAXiOQTuxUpT4VglRiVTGE3tg7lgC4n/qFrKULKKofwP8DVFq+QsGRbpg5lCiSaG6vCc3vOVSUec0uWC/JEozRCNxCk+dOD2hCrUVWuDhOkGhi2tiS7JpJE6A5kklEdPE7b0vREKoeALrJ2KSlh7563/khCMhIsQO3B4ZO1O02P0SCrbfPwTF99u+n4puti18Kmb3utfSFxDZDYdJuWb/nuyf58Vi18uOlYtm95tulh68TH+1LatVA6Wa5x9oGtlu+5LXdfSqemXGPH8yzTtl0fO+belK06KLHTdE3b81qm5ThrKEvEb2RvXTF+ErqyPR9wb3b6HJOkZH9Zbq7W9XuKgtY5vsxTX+ute8+ae7kl0+Q/6JzHqco2XqF6/yAVgcTwAQINkdBVGCagV7Bu6P1IF6KrVGlWUHMinSpqgUmvkpqhaVhTfUkj/YjQ9OyqxZL3r1HpcKgvFLkOOPWeVFeV0a7bNSYGq8+vH+gybebIZ85V/tR14RE+Q74Kzmy7xZ3e4Q3TAR0iyhXIWDCSX1aFQk4lCYnibE4M5AEFoCAPhg7NISsduJdEZatxV6QBh+zksCkXC3D1LTivPFePIEMm/mix1LxS9QUDSfhQg0h9qK4xXR0/S9soenPsG8e+cewbh+kbjRW/5l+Lb4ovyO/seSlxYwV04a1PUQvle2lpjBt/Accb97MHAAAARGVmYXVsdA==",
+                        "chunk_data": "1wIAAMu+QwACAAAAywIAAAwfAAB4nO2ZS1PbMBCA7/kVGp9bJvLbvZUGOsyEx5DAoTclXicqsuSRZQrD5L/XcRJqwAbn4SIy3OKVsvvtar1ayQ8dhJDxQ3AFdwoNFFFgoG/oYS6ejwzvk0Jg9OhYUcGJvDe+rAavCcsW02dz0awYMHqDi80VLSUrPUcMYuAqfTb2lsJX1K6UAxc0BfmrXznezMCbZpYTll6gMxK/Nu+J0YGSlE8qDT43W3amevqsRo1xxMmIAfoekkTRW0B9IJLP7TakPBSCNWJUMoPN2I4pB3Q29w9dSBFR1jiE/wGutXhFhKXrMh1TpkCilbEmPFcnXDXi6a7JckruaJzF6BLCrHh7UA8SNW3KdcwEaQaGzTXJLogkMboGmeZUO4/TujQDkckxoNO8XEpK2Luv23AqIZ0KFqLeaPeLtTnNgNEwz+3u7pm+esGB51oe9lwHW66HfX9bStwCpe8eYNvHlmmZtol9z9kW0mwD0j5wHN8LAs+2XMe0bHtbSqsdysALcGC7NsZ5RH28LaXdUizdbuBjz+navr8DSqcdStfH2PXcrulYQde1aigrxC9kL10xfhJaW6R32KEd3ickregyq821uosvUNBrjj/naa8At925Fl6uyTT/DzrhSaby9itS7x+kMpAY30CoIRI6j6IU9ArWJZ1MdSE6z5RmCbUi0imjnjDplVJLNA1zaihprB8RWpxgtdjy/hUqHY72pSTXAafd82pdGm3arjExqj/FfqArtaUj+7xWxVvXh1vYh/UqObNui7u4yRtnIzpGlCuQiWCkuLKKhFxIUhIn+ZwEyA0KQUERDB2KQ546MJFE5btxX2Qhh/zk8NZaPIFrb8N55Dm/BRkx8UeLreaRaigYSMLHGkTqQ1WNxe64L2Wj7M1n3fisG591Yzd1o1PztPpZ/l58Sn7n70uFGzXQpW8/ZS2Ub6WlM+v8BbBH+UwHAAAARGVmYXVsdA==",
                         "plugin_path": "C:/Program Files/Steinberg/VstPlugins/RX 7 Voice De-noise.dll"
                     },
                     "sync": 0,
@@ -1738,7 +1795,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "MOTU Audio ASIO",
+                "device_id": "UMC ASIO Driver",
                 "route 0": 0,
                 "speaker_layout": 1
             },
@@ -1775,10 +1832,10 @@
                 "color_space": "709",
                 "frame_interval": -1,
                 "last_resolution": "1920x1080",
-                "last_video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#228&31cbce1e&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "last_video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#226&11719826&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "res_type": 1,
                 "resolution": "1920x1080",
-                "video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#228&31cbce1e&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "USB3.0 HD Video Capture:\\\\?\\usb#22vid_eba4&pid_7588&mi_02#226&11719826&0&0002#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
                 "video_format": 0
             },
             "sync": 0,
@@ -1810,7 +1867,7 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "chunk_data": "0QIAAMu+QwACAAAAxQIAAAMfAAB4nO2ZS3PaMBCA7/wKjc8tg4yfvTUl6WSGPCaQHHoTeA1qZMkjy2kyGf57jYHUJHZiHm6UDCdgJXa/Xa13JfmxhRAyfgiu4F6hgSIKDPQNPc7F85HhQ5wLjB4dKyo4kQ/Gl9XgDWHpYvpsLprlA0ZvcLm9oqVkpeeYQQRcJc/G3lL4itqVcuCCJiB/9UvH6xl408xywtILdE6i1+atGR0oSfmk1OBzs0VnyqfPKtQYx5yMGKDvAYkVvQPUByL53G5NyiMhWC1GJVPYju2EckDnc//QpRQhZbVD+B/gGotXSFiyKdMJZQokWhmrw3N9ylUtns6GLGfknkZphK4gSPOnB/UgVtO6XCdMkHpg2NyQ7JJIEqEbkElGtfc4bUozEKkcAzrLyqWkhL37ug2nEpKpYAHqjfa/WNvTDBgNstzu7J/pq4fbHjZ9zzOzD3tXQtwEod92LBfbtutgF3vuzpBmM5Ce5WHLsrt7CGO3GULT7bqma2HH903sebtSWg1Q+rjtu67vON2OZ/vd3RfbbgASd8y25fiWjf2OZfpOZShLxC9kL10xfhJaWZv3uDE7eohJUrK5LDfXaPNeoKDXHH/O01zdbXrDmnu5IdP8P+iUx6nKdl2hev8gFYHE+BYCDZHQRRgmoFewruhkqgvRRao0S6gVkU4ZtcakV0ot0TTMqaGkkX5EaHFw1aLl/StUOpzoC0muA06zx9SqNNp2u8bEqPrw+oFu0paOfOa1yp+6PtzBZ1ivgjObbnEXF3jjdETHiHIFMhaM5DdVoZALSUKiOJsTA7lFASjIg6FDcchSByaSqKwb90UacMhODm+txRpccw3niefiDmTIxB8tWs0T1VAwkISPNYjUh6oai+74WcpG0ZtD3TjUjUPd2E/daFX8Wn0tviY+I7+z56XEjQrowiufohbKd9LSmrX+ApeD95IHAAAARGVmYXVsdA==",
+                        "chunk_data": "3AIAAMu+QwACAAAA0AIAAAwfAAB4nO2ZS3PaMBCA7/wKjc8t4zd2b00JncxAkgkkh94EXgc1suSR5TSZDP+9xkBqiE3Mw42SyQ2vxO63q9VqZT+1EELaD84kPEg0lFiChr6hp7l4PjJ6jHOB1iUTSTjD4lH7shq8wTRdTJ/NRbN8QOsOL/dXtJSs9JxSiIDJZGPsNYVb1K6UA+MkAfGrXzpez8CrZpYTll6gcxxtm7dmdCgFYbelBjfNFp0pnz6rUKOdMjymgL4HOJbkHlAfsGBzuzUpTzintRilSGE/th5hgM7n/qFLwUNCa4fwP8A1Fq8Q02RXph6hEgRaGavDc33GZC0efUeWAX4gURqhKwjSfPegLsRyWperRzmuB2aYO5JdYoEjdAMiyaiOHqddaYY8FRNAg6xcCoLpm6/baCogmXIaoO74+Iu1P82QkiDLbf34TF89p637hmHrHbujd3TLsA6lNBqg9K226zuObpmW7bmW6RmHUppNUNptw3Bd2/EM0/e8I1BazcTS81zHclzbdizDdA6FtJuAdNu2bbqGn614x9Jt1z+U0mmA0tDddsc1Pbvj67rl627V5ikRv5C9dEX7iUllkT5ih3byGOOkpMssN9foKb5AQdsc3+RprgA33bnmXu7INP8POmNxKrP2K5RvH6QiEJ/cQaAgEroIwwTUCtYVuZ2qQnSRSsUSakWkUkatMamVUks0BXNqJEikHhFa3GCVOPL+FSoVrvaFJFcBp9n7alUa7duuUT6uvsW+o1dqS0c+8lrlu64P9/AR1qvgzK4t7uJN3iQdkwkiTIKIOcX5K6uQi4UkwVGczYkB36EAJOTBUKE4ZKkDtwLL7DTu8zRgkN0cXluLNbjmDpxnnot7ECHlf5Q4ap6pRpyCwGyiQKTeVdVYnI4fpWwUvfmsG59147NuHKdutCqeVj+L34sH+He2X0rcqIAufPspaiHsIC2tWesv+xb5IwcAAABEZWZhdWx0",
                         "plugin_path": "C:/Program Files/Steinberg/VstPlugins/RX 7 Voice De-noise.dll"
                     },
                     "sync": 0,
@@ -1889,7 +1946,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "MOTU Audio ASIO",
+                "device_id": "UMC ASIO Driver",
                 "route 0": 1,
                 "speaker_layout": 1
             },
@@ -1920,6 +1977,31 @@
             },
             "sync": 0,
             "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.Stamp.False",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNews/Art/ThirdParty/Stamps/StampFakeWithCircle.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
             "volume": 1.0
         }
     ],
