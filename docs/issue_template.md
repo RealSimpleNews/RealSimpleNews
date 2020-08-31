@@ -1,40 +1,17 @@
-# Real Simple News
+# IssueType FactCheck
 
-Real Simple News is an open-source news organization on GitHub that you can contribute to. If you find any factual errors, you may correct them, contribute to the website, suggest news stories, or comment on these stories, please correct them in the comments on this ticket. You can find us on the web and make a donation to keep the show going with constant improvement at <https://realsimplenews.net/donate>.
+## Problem
 
-### Articles
+Describe what type or problem you are trying to address here. If this is not a fact check, then replace FactCheck with whatever type of issue you have, freestyle it.
 
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
+## Solution
+
+Describe your solution to the Problem here, or corrected fact.
+
+## Hierarchy
+
+* YourGitHubUserName/YourGitHubUserName#1
+
 
 ## License
 
