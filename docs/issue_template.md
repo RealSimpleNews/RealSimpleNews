@@ -15,4 +15,4 @@ Describe your solution to the Problem here, or corrected fact.
 
 ## License
 
-Copyright © 2020 [Kabuki Starship](https://kabukistarship.com); all rights reserved.
+Copyright © 2020 [Real Simple News Network](https://realsimplenews.net); all rights reserved.
