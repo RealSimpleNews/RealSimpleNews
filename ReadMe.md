@@ -1,6 +1,6 @@
-# Real Simple News
+# RSS Commentary with Cale McCollough
 
-This is the source-code repository for the [Real Simple News Network](https://www.youtube.com/channel/UCWBXDmH-czsroh5nsiZfNFQ).
+This is the source-code repository for the [RSS Commentary with Cale McCollough](https://rsscommentary.com). [Subscribe on YouTube and ring that bell for notifications](https://www.youtube.com/channel/UCWBXDmH-czsroh5nsiZfNFQ).
 
 ## License
 
