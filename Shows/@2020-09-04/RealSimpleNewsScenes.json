@@ -1,0 +1,4214 @@
+{
+    "DesktopAudioDevice1": {
+        "balance": 0.5,
+        "deinterlace_field_order": 0,
+        "deinterlace_mode": 0,
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "wasapi_output_capture",
+        "mixers": 255,
+        "monitoring_type": 0,
+        "muted": false,
+        "name": "Desktop Audio",
+        "prev_ver": 419430408,
+        "private_settings": {},
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "versioned_id": "wasapi_output_capture",
+        "volume": 1.0
+    },
+    "current_program_scene": "Front.Cam",
+    "current_scene": "Front.Cam",
+    "current_transition": "Fade",
+    "groups": [],
+    "modules": {
+        "auto-scene-switcher": {
+            "active": false,
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi",
+            "source": ""
+        },
+        "output-timer": {
+            "autoStartRecordTimer": false,
+            "autoStartStreamTimer": false,
+            "pauseRecordTimer": true,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30
+        },
+        "scripts-tool": []
+    },
+    "name": "RealSimpleNewsScenes",
+    "preview_locked": true,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Cut"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Fade"
+        }
+    ],
+    "saved_projectors": [],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "scene_order": [
+        {
+            "name": "Front.Cam"
+        },
+        {
+            "name": "Front.Cam.Screencast.Small"
+        },
+        {
+            "name": "Front.Cam.Screencast.Big"
+        },
+        {
+            "name": "Front.Cam.Doc"
+        },
+        {
+            "name": "Intro.Story"
+        },
+        {
+            "name": "IntermisionPart2"
+        },
+        {
+            "name": "IntermisionPart3"
+        },
+        {
+            "name": "Intro"
+        },
+        {
+            "name": "IntermisionPart4"
+        },
+        {
+            "name": "Break"
+        },
+        {
+            "name": "Desktop"
+        },
+        {
+            "name": "EasterEgg"
+        },
+        {
+            "name": "FactCheck"
+        },
+        {
+            "name": "FactCheck.Story"
+        }
+    ],
+    "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.FactChecked",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4294923775,
+                "font": {
+                    "face": "Harlow Solid Italic",
+                    "flags": 2,
+                    "size": 128,
+                    "style": "Italic"
+                },
+                "text": "Fact Check"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.EasterEgg",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMIntroEasterEgg.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.IssueNumber.FactCheck",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4278190335,
+                "font": {
+                    "face": "Georgia",
+                    "flags": 0,
+                    "size": 96,
+                    "style": "Regular"
+                },
+                "text": "#96"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.FactCheck.Forground",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMFactCheck.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Background.Color": [],
+                "libobs.hide_scene_item.Cam.GreenScreen": [],
+                "libobs.hide_scene_item.Display.Main": [],
+                "libobs.hide_scene_item.Image.FactCheck": [],
+                "libobs.hide_scene_item.Image.FactCheck.Forground": [],
+                "libobs.hide_scene_item.Image.FakeNews": [],
+                "libobs.hide_scene_item.Image.Intro.Forground": [],
+                "libobs.hide_scene_item.Image.RealNews": [],
+                "libobs.hide_scene_item.Mic.Room": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber.FactCheck": [],
+                "libobs.show_scene_item.Background.Color": [],
+                "libobs.show_scene_item.Cam.GreenScreen": [],
+                "libobs.show_scene_item.Display.Main": [],
+                "libobs.show_scene_item.Image.FactCheck": [],
+                "libobs.show_scene_item.Image.FactCheck.Forground": [],
+                "libobs.show_scene_item.Image.FakeNews": [],
+                "libobs.show_scene_item.Image.Intro.Forground": [],
+                "libobs.show_scene_item.Image.RealNews": [],
+                "libobs.show_scene_item.Mic.Room": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber.FactCheck": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "FactCheck.Story",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 17,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Mic.Room",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Background.Color",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Image.FactCheck",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 155,
+                        "crop_right": 379,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Cam.GreenScreen",
+                        "pos": {
+                            "x": 2025.0,
+                            "y": 356.0
+                        },
+                        "private_settings": {},
+                        "rot": 90.0,
+                        "scale": {
+                            "x": 0.52236652374267578,
+                            "y": 0.52222222089767456
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Image.Intro.Forground",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Image.FactCheck.Forground",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 760,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Display.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 13.0,
+                            "y": 1019.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 14,
+                        "locked": false,
+                        "name": "Text.IssueNumber.FactCheck",
+                        "pos": {
+                            "x": 1753.0,
+                            "y": 968.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": false,
+                        "name": "Image.FakeNews",
+                        "pos": {
+                            "x": 612.0,
+                            "y": 654.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.23901940882205963,
+                            "y": 0.23888520896434784
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Image.RealNews",
+                        "pos": {
+                            "x": 593.0,
+                            "y": 581.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62374997138977051,
+                            "y": 0.62374997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.FactCheck",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMFactCheck.png",
+                "unload": true
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Cam.GreenScreen": [],
+                "libobs.hide_scene_item.Image.FactCheck": [],
+                "libobs.hide_scene_item.Mic.Room": [],
+                "libobs.hide_scene_item.Text.FactChecked": [],
+                "libobs.hide_scene_item.Text.IssueNumber.FactCheck": [],
+                "libobs.show_scene_item.Cam.GreenScreen": [],
+                "libobs.show_scene_item.Image.FactCheck": [],
+                "libobs.show_scene_item.Mic.Room": [],
+                "libobs.show_scene_item.Text.FactChecked": [],
+                "libobs.show_scene_item.Text.IssueNumber.FactCheck": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "FactCheck",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 6,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image.FactCheck",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Mic.Room",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Text.IssueNumber.FactCheck",
+                        "pos": {
+                            "x": 1753.0,
+                            "y": 968.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 152,
+                        "crop_right": 377,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Cam.GreenScreen",
+                        "pos": {
+                            "x": 2041.0,
+                            "y": 310.0
+                        },
+                        "private_settings": {},
+                        "rot": 90.0,
+                        "scale": {
+                            "x": 0.5535585880279541,
+                            "y": 0.55370372533798218
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Text.FactChecked",
+                        "pos": {
+                            "x": 426.0,
+                            "y": 248.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Text.IssueNumber.FactCheck",
+                        "pos": {
+                            "x": 1753.0,
+                            "y": 968.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Image.EasterEgg": [],
+                "libobs.hide_scene_item.Mic.Room": [],
+                "libobs.show_scene_item.Image.EasterEgg": [],
+                "libobs.show_scene_item.Mic.Room": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "EasterEgg",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image.EasterEgg",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Mic.Room",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.IssueNumber",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4278190335,
+                "font": {
+                    "face": "Georgia",
+                    "flags": 0,
+                    "size": 96,
+                    "style": "Regular"
+                },
+                "text": "#98"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.Intermision.Part2",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "bk_color": 4278190080,
+                "bk_opacity": 50,
+                "color": 4294923775,
+                "font": {
+                    "face": "Courier New",
+                    "flags": 1,
+                    "size": 24,
+                    "style": "Bold"
+                },
+                "text": "Intermission... \nPart 2 is up next"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.Thumbnail",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMThumbnail.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_VK_BROWSER_HOME"
+                    }
+                ],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Image.Thumbnail": [],
+                "libobs.hide_scene_item.Text.Intermision.Part2": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Image.Thumbnail": [],
+                "libobs.show_scene_item.Text.Intermision.Part2": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "IntermisionPart2",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 5,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image.Thumbnail",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Text.Intermision.Part2",
+                        "pos": {
+                            "x": 124.0,
+                            "y": 268.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.8960394859313965,
+                            "y": 3.8958332538604736
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.BRB",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4294923775,
+                "font": {
+                    "face": "Harlow Solid Italic",
+                    "flags": 2,
+                    "size": 256,
+                    "style": "Italic"
+                },
+                "text": "I'll be right back..."
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_5"
+                    }
+                ],
+                "libobs.hide_scene_item.Background.Color": [],
+                "libobs.hide_scene_item.Cam.GreenScreen": [],
+                "libobs.hide_scene_item.Image.Intro": [],
+                "libobs.hide_scene_item.Image.Intro.Forground": [],
+                "libobs.hide_scene_item.Mic.Room": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Background.Color": [],
+                "libobs.show_scene_item.Cam.GreenScreen": [],
+                "libobs.show_scene_item.Image.Intro": [],
+                "libobs.show_scene_item.Image.Intro.Forground": [],
+                "libobs.show_scene_item.Mic.Room": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Intro",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 19,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Mic.Room",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Background.Color",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 18,
+                        "locked": false,
+                        "name": "Image.Intro",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 155,
+                        "crop_right": 379,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 19,
+                        "locked": false,
+                        "name": "Cam.GreenScreen",
+                        "pos": {
+                            "x": 1934.0,
+                            "y": 343.0
+                        },
+                        "private_settings": {},
+                        "rot": 90.0,
+                        "scale": {
+                            "x": 0.45310243964195251,
+                            "y": 0.45277777314186096
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Image.Intro.Forground",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 13.0,
+                            "y": 1019.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1758.0,
+                            "y": 971.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.ChannelArtTemplate",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/workspace/realsimplenews/realsimplenews/resources/images/youtube_channel_art_template.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.Intro.Forground",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMIntroForground.png",
+                "unload": true
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_2"
+                    }
+                ],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Display.Main": [],
+                "libobs.hide_scene_item.Image.FakeNews": [],
+                "libobs.hide_scene_item.Image.RealNews": [],
+                "libobs.hide_scene_item.Mic.Main": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Display.Main": [],
+                "libobs.show_scene_item.Image.FakeNews": [],
+                "libobs.show_scene_item.Image.RealNews": [],
+                "libobs.show_scene_item.Mic.Main": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Front.Cam.Screencast.Small",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 11,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Display.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Mic.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": -471.0,
+                            "y": 642.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.40520831942558289,
+                            "y": 0.40555554628372192
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 1313.0,
+                            "y": 1022.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1717.0,
+                            "y": 1015.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.63768118619918823,
+                            "y": 0.63541668653488159
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Image.FakeNews",
+                        "pos": {
+                            "x": 1377.0,
+                            "y": 655.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.23901940882205963,
+                            "y": 0.23888520896434784
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Image.RealNews",
+                        "pos": {
+                            "x": 1399.0,
+                            "y": 581.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62374997138977051,
+                            "y": 0.62374997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 1.0,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "RX Voice Denoise",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "6gIAAMu+QwACAAAA3gIAABkfAAB4nO2ZzXKbMBCA734KDeeWAQQGemvqpJMZ52dqN4feZLPEaoTECJEmk/G7F7CdkgQSbExDMjnZXsm7365WuxLcDRBC2jfBFdwoNFFEgYa+oLtcnI9Mb+NCoI3oXFHBibzVPm0GLwhLV9OXuWhZDGijyfnuitaSjZ5DBhFwlTwae0nhM2o3yoELmoD8Na4cb2bgRTPrCWsv0CmJnpv3wOhEScovKw0+Nlt2pnr6skaNdsjJjAH6GpBY0WtAYyCS53YbUh4IwRoxKpnCbmxHlAM6zf1D51KElDUO4X+A6yxeIWHJtkxHlCmQaGOsCc/PY64a8RhbspyQGxqlEfoBQVrsHjSCWC2ach0xQZqBmdaWZOdEkghdgEwyqr3HaVuaiUjlHNBJVi4lJezV1226kJAsBAvQaLb/xdqdZsJokOW2sX+mz0NPNxwLO5affbjYxl5bSrMDSt/UseVaQ8tzPdt0/aHfltLqghLr3hA7vm04juk6rme2pcRdUA517GQLji3Hxr7t4NaUdheUnu7m6eg6bemcDuhMw9EN18eW5Zm2b5t2XQwrxE9kT13RvhNaW533eDQ7uI1JUnG8rDbXafteoaDnHH/M013l7frIWni5JVP+H3TM41Rl565QvX6QykBifgVBB/vM0A1s255p2J7jYd/boR48wURnYZhAvwL4g14u+kJ0lqqeJdmGqKMsa8/Ur5Rao/Uwp6aSRv0jQqvrbC/a4L9C1Yd7finJ+4DT7eW1Lo12PcIxMau/0r6h52trR97zWhW7bgzX8B7Wq+TMtsfe1WO9eTqjc0S5AhkLRornV6GQK0lCojibEwO5QgEoKILRh+KQpQ5cSqKybjwWacAhu028tBYP4LprOPc8Z9cgQyb+9KLV3FNNBQNJ+LwHkXpTVWPVHd9L2Sh781E3PurGR93YT90Y1PzafC2/PD4hv7P9UuFGDXTpRVBZC+WttAyWg7/9bPvXBwAAAERlZmF1bHQ=",
+                        "plugin_path": "C:/Program Files/Steinberg/VstPlugins/RX 7 Voice De-noise.dll"
+                    },
+                    "sync": 0,
+                    "versioned_id": "vst_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Neutron",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "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",
+                        "plugin_path": "C:/Program Files/Steinberg/VstPlugins/Neutron 3 Elements.dll"
+                    },
+                    "sync": 0,
+                    "versioned_id": "vst_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Ozone",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "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",
+                        "open_when_active_vst_settings": true,
+                        "plugin_path": "C:/Program Files/Steinberg/VstPlugins/Ozone 9 Elements.dll"
+                    },
+                    "sync": 0,
+                    "versioned_id": "vst_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 2,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Mic.Room",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{d4d9bc78-e726-403c-ab8b-b4819abcea02}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.0,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "RX Denoise",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "1gIAAMu+QwACAAAAygIAAAkfAAB4nO2ZS3ObMBCA7/4VGs6tBwwI6K2pk05mnMfETg69yWax1QiJESJNJuP/XoztlCTYwQ8aJeObWcm7366W1Uo8thBCxg/BFdwr1FdEgYG+oceZeDYyeEgKgdGlI0UFJ/LB+LIcvCEsm0+fzkTTYsDo9i+3V7SQLPUcM4iBq/TF2FsK16hdKgcuaAryV69yvJ6BN80sJiy8QOckXjfvmdG+kpSPKw2+NFt2pnr6dIUa45iTIQP0PSSJoneAekAkn9mtSXkkBKvFqGQG27GdUA7ofOYfupQioqx2CP8DXGPxighLN2U6oUyBREtjdXiuT7mqxWNuyHJG7mmcxegKwqx4e1AXEjWpy3XCBKkHZnU2JLskksToBmSaU+09TpvS9EUmR4DO8nIpKWHvvm6DiYR0IliIusP9L9b2NH1Gwzy3zf0zfcVu2/VNz/ew6+PAcky8K6XVAKXvtTH2HNOxPMc3Hez7u1J2GqAMrLaFrY5nWo6FTcvF9q6UdhOUZtsPXM/GOHBs2w3snWPpNEMZWBbuWGZge+6uhG5DhNjtuHkoPXtdTlaIX8leu2L8JHRlhd5je3b0kJC0osWsNtfoFj5HQescf8nTXPVtum0tvNyQafYfdMqTTOW9V6TeP0hlIDG6hVBDJHQRRSnoFawrOp7oQnSRKc0SakmkU0Y9Y9IrpRZoGubUQNJYPyI0P75qseX9K1Q6nOtLSa4DTrOH1VVptG27xsRw9RH2A92nLRz5zGtVvHU9uIPPsF4lZzZtcefXeKNsSEeIcgUyEYwU91WRkHNJSuIkn5MAuUUhKCiCoUNxyFMHxpKofDfuiSzkkJ8c3lqLZ3DNbThPPBd3ICMm/mix1TxRDQQDSfhIg0h9qKox3x0/S9koe3OoG4e6cagb+6kbrRVPy5/lj8Vn5Hf+vlS4sQK69OGnrIXynbS0pq2/kij4qwcAAABEZWZhdWx0",
+                        "plugin_path": "C:/Program Files/Steinberg/VstPlugins/RX 7 Voice De-noise.dll"
+                    },
+                    "sync": 0,
+                    "versioned_id": "vst_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Neutron",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "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",
+                        "plugin_path": "C:/Program Files/Steinberg/VstPlugins/Neutron 3 Elements.dll"
+                    },
+                    "sync": 0,
+                    "versioned_id": "vst_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "vst_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Ozone",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "chunk_data": "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",
+                        "plugin_path": "C:/Program Files/Steinberg/VstPlugins/Ozone 9 Elements.dll"
+                    },
+                    "sync": 0,
+                    "versioned_id": "vst_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 2,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Mic.Main",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{d4d9bc78-e726-403c-ab8b-b4819abcea02}",
+                "use_device_timing": true
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_4"
+                    }
+                ],
+                "libobs.hide_scene_item.Cam.Doc": [],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Image.FakeNews": [],
+                "libobs.hide_scene_item.Image.RealNews": [],
+                "libobs.hide_scene_item.Mic.Main": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Cam.Doc": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Image.FakeNews": [],
+                "libobs.show_scene_item.Image.RealNews": [],
+                "libobs.show_scene_item.Mic.Main": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Front.Cam.Doc",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 12,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Mic.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Cam.Doc",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": -1086.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 13.0,
+                            "y": 1019.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1758.0,
+                            "y": 971.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Image.FakeNews",
+                        "pos": {
+                            "x": 1377.0,
+                            "y": 655.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.23901940882205963,
+                            "y": 0.23888520896434784
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Image.RealNews",
+                        "pos": {
+                            "x": 1365.0,
+                            "y": 612.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62374997138977051,
+                            "y": 0.62374997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_1"
+                    }
+                ],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Mic.Main": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Mic.Main": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Front.Cam",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 22,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Mic.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 19,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1758.0,
+                            "y": 971.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Correction",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "brightness": -0.080000000000000002,
+                        "contrast": -0.089999999999999997,
+                        "gamma": -0.070000000000000007,
+                        "saturation": -0.23999999999999999
+                    },
+                    "sync": 0,
+                    "versioned_id": "color_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Cam.Main",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "buffering": 0,
+                "color_range": "full",
+                "color_space": "709",
+                "deactivate_when_not_showing": true,
+                "frame_interval": -1,
+                "last_resolution": "1920x1080",
+                "last_video_device_id": "USB Video:\\\\?\\usb#22vid_534d&pid_2109&mi_00#22a&f63c44c&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "res_type": 0,
+                "resolution": "1920x1080",
+                "video_device_id": "USB Video:\\\\?\\usb#22vid_534d&pid_2109&mi_00#22a&f63c44c&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_format": 0
+            },
+            "sync": 0,
+            "versioned_id": "dshow_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "ColorCorrectionPre",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "saturation": 1.0
+                    },
+                    "sync": 0,
+                    "versioned_id": "color_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "ChromaKey",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "brightness": 0.17999999999999999,
+                        "contrast": -0.35999999999999999,
+                        "gamma": -0.059999999999999998,
+                        "similarity": 425,
+                        "smoothness": 11,
+                        "spill": 82
+                    },
+                    "sync": 0,
+                    "versioned_id": "chroma_key_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "ColorCorrectionPost",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "saturation": -0.5
+                    },
+                    "sync": 0,
+                    "versioned_id": "color_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Correction",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "contrast": -0.25,
+                        "gamma": -0.070000000000000007,
+                        "saturation": 0.10000000000000001
+                    },
+                    "sync": 0,
+                    "versioned_id": "color_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": true,
+            "name": "Cam.GreenScreen",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "buffering": 0,
+                "color_range": "partial",
+                "color_space": "709",
+                "frame_interval": -1,
+                "last_resolution": "3840x2160",
+                "last_video_device_id": "USB Video:\\\\?\\usb#22vid_534d&pid_2109&mi_00#226&237d0505&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "res_type": 0,
+                "resolution": "3840x2160",
+                "video_device_id": "USB Video:\\\\?\\usb#22vid_534d&pid_2109&mi_00#226&237d0505&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_format": 0
+            },
+            "sync": 0,
+            "versioned_id": "dshow_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Cam.Doc",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "buffering": 0,
+                "color_range": "full",
+                "color_space": "709",
+                "frame_interval": 500000,
+                "last_resolution": "1920x1080",
+                "last_video_device_id": "Intel(R) RealSense(TM) Depth Camera 435i RGB:\\\\?\\usb#22vid_8086&pid_0b3a&mi_03#226&33f694b1&0&0003#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "res_type": 0,
+                "resolution": "1920x1080",
+                "video_device_id": "Intel(R) RealSense(TM) Depth Camera 435i RGB:\\\\?\\usb#22vid_8086&pid_0b3a&mi_03#226&33f694b1&0&0003#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_format": 0
+            },
+            "sync": 0,
+            "versioned_id": "dshow_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_3"
+                    }
+                ],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Display.Main": [],
+                "libobs.hide_scene_item.Image.FakeNews": [],
+                "libobs.hide_scene_item.Image.Forground": [],
+                "libobs.hide_scene_item.Image.RealNews": [],
+                "libobs.hide_scene_item.Mic.Main": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.hide_scene_item.Text.WalkAway": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Display.Main": [],
+                "libobs.show_scene_item.Image.FakeNews": [],
+                "libobs.show_scene_item.Image.Forground": [],
+                "libobs.show_scene_item.Image.RealNews": [],
+                "libobs.show_scene_item.Mic.Main": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Text.WalkAway": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Front.Cam.Screencast.Big",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 17,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Mic.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Display.Main",
+                        "pos": {
+                            "x": -756.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 13.0,
+                            "y": 1019.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1758.0,
+                            "y": 971.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 14,
+                        "locked": false,
+                        "name": "Image.FakeNews",
+                        "pos": {
+                            "x": 611.0,
+                            "y": 648.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.23901940882205963,
+                            "y": 0.23888520896434784
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 15,
+                        "locked": false,
+                        "name": "Image.RealNews",
+                        "pos": {
+                            "x": 593.0,
+                            "y": 581.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62374997138977051,
+                            "y": 0.62374997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": false,
+                        "name": "Text.WalkAway",
+                        "pos": {
+                            "x": 147.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Image.Forground",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "monitor_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Display.Main",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_cursor": true,
+                "monitor": 1
+            },
+            "sync": 0,
+            "versioned_id": "monitor_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.Intro",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMIntro.png",
+                "unload": false
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "color_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Background.Color",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4278255360,
+                "height": 1080,
+                "width": 1920
+            },
+            "sync": 0,
+            "versioned_id": "color_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.AtRSSCommentary",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 48,
+                    "style": "Regular"
+                },
+                "text": "@RSSCommentary"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Cam.GreenScreen": [],
+                "libobs.hide_scene_item.Image.Thumbnail": [],
+                "libobs.hide_scene_item.Text.BRB": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Cam.GreenScreen": [],
+                "libobs.show_scene_item.Image.Thumbnail": [],
+                "libobs.show_scene_item.Text.BRB": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Break",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Image.Thumbnail",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Text.BRB",
+                        "pos": {
+                            "x": 53.0,
+                            "y": 245.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.6111111044883728,
+                            "y": 0.6098484992980957
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Cam.GreenScreen",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1758.0,
+                            "y": 971.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_VK_MEDIA_PREV_TRACK"
+                    }
+                ],
+                "libobs.hide_scene_item.Background.Color": [],
+                "libobs.hide_scene_item.Cam.GreenScreen": [],
+                "libobs.hide_scene_item.Display.Main": [],
+                "libobs.hide_scene_item.Image.ChannelArtTemplate": [],
+                "libobs.hide_scene_item.Image.FakeNews": [],
+                "libobs.hide_scene_item.Image.Intro": [],
+                "libobs.hide_scene_item.Image.Intro.Forground": [],
+                "libobs.hide_scene_item.Image.RealNews": [],
+                "libobs.hide_scene_item.Mic.Room": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Background.Color": [],
+                "libobs.show_scene_item.Cam.GreenScreen": [],
+                "libobs.show_scene_item.Display.Main": [],
+                "libobs.show_scene_item.Image.ChannelArtTemplate": [],
+                "libobs.show_scene_item.Image.FakeNews": [],
+                "libobs.show_scene_item.Image.Intro": [],
+                "libobs.show_scene_item.Image.Intro.Forground": [],
+                "libobs.show_scene_item.Image.RealNews": [],
+                "libobs.show_scene_item.Mic.Room": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Intro.Story",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 32,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Background.Color",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image.Intro.Forground",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 696,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Image.ChannelArtTemplate",
+                        "pos": {
+                            "x": 259.0,
+                            "y": 15.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.71190989017486572,
+                            "y": 0.71180558204650879
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Mic.Room",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 22,
+                        "locked": false,
+                        "name": "Image.Intro",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 155,
+                        "crop_right": 379,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 30,
+                        "locked": false,
+                        "name": "Cam.GreenScreen",
+                        "pos": {
+                            "x": 1934.0,
+                            "y": 343.0
+                        },
+                        "private_settings": {},
+                        "rot": 90.0,
+                        "scale": {
+                            "x": 0.45310243964195251,
+                            "y": 0.45277777314186096
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 28,
+                        "locked": false,
+                        "name": "Image.Intro.Forground",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 760,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Display.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 13,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 13.0,
+                            "y": 1019.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 26,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1758.0,
+                            "y": 971.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 31,
+                        "locked": false,
+                        "name": "Image.FakeNews",
+                        "pos": {
+                            "x": 603.0,
+                            "y": 647.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.23901940882205963,
+                            "y": 0.23888520896434784
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 32,
+                        "locked": false,
+                        "name": "Image.RealNews",
+                        "pos": {
+                            "x": 593.0,
+                            "y": 581.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62374997138977051,
+                            "y": 0.62374997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Display.Main": [],
+                "libobs.hide_scene_item.Image.FakeNews": [],
+                "libobs.hide_scene_item.Image.RealNews": [],
+                "libobs.hide_scene_item.Text.AtRSSCommentary": [],
+                "libobs.hide_scene_item.Text.IssueNumber": [],
+                "libobs.show_scene_item.Display.Main": [],
+                "libobs.show_scene_item.Image.FakeNews": [],
+                "libobs.show_scene_item.Image.RealNews": [],
+                "libobs.show_scene_item.Text.AtRSSCommentary": [],
+                "libobs.show_scene_item.Text.IssueNumber": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Desktop",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 7,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Display.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Text.IssueNumber",
+                        "pos": {
+                            "x": 1717.0,
+                            "y": 1015.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.63768118619918823,
+                            "y": 0.63541668653488159
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Text.AtRSSCommentary",
+                        "pos": {
+                            "x": 1313.0,
+                            "y": 1022.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0567567348480225,
+                            "y": 1.0625
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Image.FakeNews",
+                        "pos": {
+                            "x": 1377.0,
+                            "y": 655.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.23901940882205963,
+                            "y": 0.23888520896434784
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Image.RealNews",
+                        "pos": {
+                            "x": 1406.0,
+                            "y": 581.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.62374997138977051,
+                            "y": 0.62374997138977051
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.FakeNews",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNews/Art/Stamps/StampFakeWithCircle.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.RealNews",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNews/Art/Stamps/StampTrue.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Image.Thumbnail": [],
+                "libobs.hide_scene_item.Text.Intermision.Part4": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Image.Thumbnail": [],
+                "libobs.show_scene_item.Text.Intermision.Part4": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "IntermisionPart4",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 5,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image.Thumbnail",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Text.Intermision.Part4",
+                        "pos": {
+                            "x": 124.0,
+                            "y": 268.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.8960394859313965,
+                            "y": 3.8958332538604736
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Cam.Main": [],
+                "libobs.hide_scene_item.Image.Thumbnail": [],
+                "libobs.hide_scene_item.Text.Intermision.Part3": [],
+                "libobs.show_scene_item.Cam.Main": [],
+                "libobs.show_scene_item.Image.Thumbnail": [],
+                "libobs.show_scene_item.Text.Intermision.Part3": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "IntermisionPart3",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Image.Thumbnail",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Text.Intermision.Part3",
+                        "pos": {
+                            "x": 124.0,
+                            "y": 268.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 3.8960394859313965,
+                            "y": 3.8958332538604736
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Cam.Main",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.Intermision.Part3",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "bk_color": 4278190080,
+                "bk_opacity": 50,
+                "color": 4294923775,
+                "font": {
+                    "face": "Courier New",
+                    "flags": 1,
+                    "size": 24,
+                    "style": "Bold"
+                },
+                "text": "Intermission... \nPart 3 is up next"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.Intermision.Part4",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "bk_color": 4278190080,
+                "bk_opacity": 50,
+                "color": 4294923775,
+                "font": {
+                    "face": "Courier New",
+                    "flags": 1,
+                    "size": 24,
+                    "style": "Bold"
+                },
+                "text": "Intermission... \nPart 4 is up next"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text.WalkAway",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4278190080,
+                "font": {
+                    "face": "Georgia",
+                    "flags": 0,
+                    "size": 196,
+                    "style": "Regular"
+                },
+                "text": "#WalkAway"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image.Forground",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/Users/calem/Workspace/RealSimpleNews/RealSimpleNewsWithCaleMcCollough/Workspace/RSNwCMForground.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": []
+}
