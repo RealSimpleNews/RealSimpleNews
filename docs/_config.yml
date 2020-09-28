@@ -1,19 +1,19 @@
 title: RSS News and political commentary and critique from the Intellectual Dark Web.
 author: Cale McCollough
-email: info@realsimplenews.net # email for form submission, you also have to change it in _js/scripts.js
+email: info@rsscommentary.com # email for form submission, you also have to change it in _js/scripts.js
 description: > # this means to ignore newlines until "baseurl:"
-  Real Simple News is Really Simple Syndication (RSS) news and political commentary and critique from the Intellectual Dark Web hosted by Cale McCollough, Captain of the Kabuki Starship and technology pioneer.
+  Real Simple News is Really Simple Syndication (RSS) news and political commentary and critique from the Intellectual Dark Web hosted by Cale McCollough, Captain of the Kabuki Starship (kabukistarship.com) and technology pioneer.
 baseurl: "/"
-url: "https://realsimplenews.net"
+url: "https://rsscommentary.com"
 twitter_username: RSSCommentary
-github_username:  RealSimpleNews
-periscope_username:  RealSimpleNews
-instagram_username: RealSimpleNews
+github_username:  RSSCommentary
+periscope_username:  RSSCommentary
+instagram_username: RSSCommentary
 social:
   name: Real Simple News
   links:
     - https://twitter.com/RSSCommentary
-    - https://github.com/RealSimpleNews
+    - https://github.com/RSSCommentary
     - https://www.linkedin.com/in/CaleMcCollough
 
 disqus:
@@ -22,7 +22,7 @@ disqus:
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
-theme: real-simple-news
+theme: rsscommentary
 exclude:
   - ReadMe.md
   - node_modules
@@ -33,7 +33,7 @@ exclude:
   - vendor
   - npm-debug.log
   - gulpfile.js
-  - real-simple-news.png
+  - rsscommentary.png
   - bug_report_template.md
   - code_of_conduct.md
   - contributing.md
