@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "real-simple-news"
+  spec.name          = "rsscommentary"
   spec.version       = "0.1.2"
   spec.authors       = ["Jan Czizikow"]
   spec.email         = ["jan.czizikow@gmail.com"]
 
   spec.summary       = %q{Theme for Real Simple News.}
-  spec.homepage      = "https://realsimplenews.net"
+  spec.homepage      = "https://rsscommentary.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|

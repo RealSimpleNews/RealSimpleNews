@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    real-simple-news (0.1.2)
+    rsscommentary (0.1.2)
       jekyll (~> 3.6)
       jekyll-seo-tag (~> 2.3)
       jekyll-sitemap (~> 1.1)
@@ -77,7 +77,7 @@ DEPENDENCIES
   kramdown (>= 2.3.0)
   kramdown-parser-gfm
   rake (~> 13.0.1)
-  real-simple-news!
+  rsscommentary!
   wdm (>= 0.1.0)
 
 BUNDLED WITH
