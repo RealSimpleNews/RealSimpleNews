@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Real Simple News is Really Simple Syndication (RSS) news and political commentary and critique from the Intellectual Dark Web hosted by Cale McCollough, Captain of the Kabuki Starship and technology pioneer.
+RSS Commentary is Really Simple Syndication (RSS) news and political commentary and critique from the Intellectual Dark Web hosted by Cale McCollough.
 
 This stream is brought to you by open-source technologies you can contribute to. If you like this content you can find more free educational videos at cookingwithcale.org.
 
