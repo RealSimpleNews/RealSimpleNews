@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "rsscommentary"
-  spec.version       = "0.1.2"
-  spec.authors       = ["Jan Czizikow"]
-  spec.email         = ["jan.czizikow@gmail.com"]
+  spec.version       = "0.1.3"
+  spec.authors       = ["Cale McCollough"]
+  spec.email         = ["cale.mccollough@gmail.com"]
 
   spec.summary       = %q{Theme for Real Simple News.}
   spec.homepage      = "https://rsscommentary.com"
