@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cale McCollough"]
   spec.email         = ["cale.mccollough@gmail.com"]
 
-  spec.summary       = %q{Theme for Real Simple News.}
+  spec.summary       = %q{Theme for RSS Commentary.}
   spec.homepage      = "https://rsscommentary.com"
   spec.license       = "MIT"
 
