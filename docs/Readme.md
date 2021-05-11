@@ -1,6 +1,6 @@
-# Real Simple News
+# RSS Commentary
 
-This folder contains the website stem files for Real Simple News
+This folder contains the website stem files for RSS Commentary
 
 ## License
 

@@ -5,12 +5,12 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: page
-title: Donate to Real Simple News
+title: Donate to RSS Commentary
 ---
 
-![Real Simple News Channel-art](/assets/img/ChannelArt.jpg)
+![RSS Commentary Channel-art](/assets/img/ChannelArt.jpg)
 
-Real Simple News is an open-source news organization that is part of the Kabuki Starship. If you would like to make  donation, you can do so through the PayPay with the button bellow.
+RSS Commentary is an open-source news organization that is part of the Kabuki Starship. If you would like to make  donation, you can do so through the PayPay with the button bellow.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick" />
