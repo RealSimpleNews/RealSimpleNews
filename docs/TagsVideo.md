@@ -1,3 +1,3 @@
 # Video Tags
 
-News, Real news, Fake news, FakeNews, Politics, Commentary, IDW, Intellectual Dark Web, RSS, WalkAway, Conservative, Raw, Edgy, BLM, Antifa, Antifa-nazi, Feminist, Anti-feminist, Debate, Masculine, Feminine, Dispel, Police, Funny, Trump, Biden, Pelosi, Republicans, Democrats, Censorship, Big tech, Big media, China, Democrats, Cancel culture, Free speech, Constitution, Deradicalization, Comedy, Satire, Sarcasm, Cooking with Cale
+News, Real news, Fake news, FakeNews, Politics, Commentary, IDW, Intellectual Dark Web, RSS, WalkAway, Conservative, Raw, Edgy, BLM, Antifa, Antifa-nazi, Debate, Dispel, Police, Funny, Trump, Biden, Pelosi, Republicans, Democrats, Censorship, Big tech, Big media, China, Democrats, Cancel culture, Free speech, Constitution, Deradicalization, Comedy, Satire, Sarcasm, Cooking with Cale
