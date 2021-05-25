@@ -73,12 +73,12 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 2.1.4)
+  bundler (~> 2.2.10)
   kramdown (>= 2.3.1)
   kramdown-parser-gfm
   rake (~> 13.0.1)
-  rsscommentary!
+  rsscommentary
   wdm (>= 0.1.0)
 
 BUNDLED WITH
-   2.1.4
+   2.2.10
